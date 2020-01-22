@@ -5,7 +5,6 @@
  *
  * Made By MaterializeCSS.com
  */
-
 nav ul a,
 nav .brand-logo {
     color: #444;
@@ -62,4 +61,22 @@ footer.page-footer {
 #LogoSVG {
     width: 20%;
     height: 20%;
+}
+
+.img
+{
+    height: 200px;
+    width: 200px;
+}
+
+.imgDemi
+{
+    height: 200px;
+    width: 150px;
+    
+}
+
+.uitspreiden
+{
+    text-align: center;
 }
