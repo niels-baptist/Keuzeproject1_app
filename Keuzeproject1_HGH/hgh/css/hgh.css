@@ -1,0 +1,10 @@
+/* Custom Stylesheet */
+
+
+/* Schrijf hier je aanpassingen die specifiek voor HGH zijn
+en die bovenop materialize komen */
+
+body {
+    background-color: #eee;
+    color: darkblue;
+}
