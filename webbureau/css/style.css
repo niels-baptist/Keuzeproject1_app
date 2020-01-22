@@ -63,20 +63,22 @@ footer.page-footer {
     height: 20%;
 }
 
-.img
-{
+.img {
     height: 200px;
     width: 200px;
 }
 
-.imgDemi
-{
+.imgDemi {
     height: 200px;
     width: 150px;
-    
+
 }
 
-.uitspreiden
-{
+.uitspreiden {
     text-align: center;
+}
+
+.imgLogo {
+    width: 20%;
+    height: 20%;
 }
