@@ -5,6 +5,13 @@
  *
  * Made By MaterializeCSS.com
  */
+@media screen and (max-width: 600px) {
+    #LogoImg {
+        width: 45%;
+        height: 45%;
+    }
+}
+
 nav ul a,
 nav .brand-logo {
     color: #444;
@@ -83,8 +90,7 @@ footer.page-footer {
     height: 20%;
 }
 
-.imgFerre
-{
+.imgFerre {
     width: 235px;
     height: 200px;
 }
