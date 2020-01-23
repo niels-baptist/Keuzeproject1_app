@@ -7,4 +7,25 @@ en die bovenop materialize komen */
 body {
     background-color: #eee;
     color: darkblue;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 21.5px;
+}
+
+h1
+{
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+li
+{
+    padding: 40px;
+}
+
+alogo
+{
+    text-align: center;
+    margin: auto;
 }
