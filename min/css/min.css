@@ -12,6 +12,16 @@ body {
     line-height: 21.5px;
 }
 
+footer
+{
+    background-color: deepskyblue;
+}
+
+nav
+{
+    background-color: deepskyblue;
+}
+
 h1
 {
     margin: auto;
