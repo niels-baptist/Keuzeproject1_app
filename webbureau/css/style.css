@@ -12,6 +12,13 @@
     }
 }
 
+@media screen and (min-width: 600px) and (max-width: 992px) {
+    #LogoImg {
+        width: 275px;
+        height: 275px;
+    }
+}
+
 nav ul a,
 nav .brand-logo {
     color: #444;
