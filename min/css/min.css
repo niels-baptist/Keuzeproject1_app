@@ -26,16 +26,42 @@ body {
     text-align: center;
 }
 
-nav
+.navigatie
 {
+    margin-top: 0px;
     background-color: dodgerblue;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+ul
+{
+    background-color: #fff;
+}
+
+li
+{
+    padding: 10px;
+}
+
+li:active
+{
+    background-color: #fff;
 }
 
 .nav a
 {
     color: #fff;
-    padding: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav a:active;
+{
+    background-color: #fff;
 }
 
 .intro
@@ -51,10 +77,7 @@ h1
     padding: 20px;
 }
 
-li
-{
-    padding: 40px;
-}
+
 
 alogo
 {
