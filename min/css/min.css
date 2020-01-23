@@ -20,6 +20,19 @@ body {
     padding: 20px;
 }
 
+.imgHomepage
+{
+    padding: 20px;
+    margin: auto;
+    display: block;
+}
+
+.social
+{
+   
+    padding-bottom: 50px;
+}
+
 .footer a
 {
     color: #fff;
@@ -35,6 +48,8 @@ body {
     max-width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
+    padding: 20px;
+    flex-basis: auto;
 }
 
 ul
@@ -76,7 +91,6 @@ h1
     font-size: 40px;
     padding: 20px;
 }
-
 
 
 alogo
