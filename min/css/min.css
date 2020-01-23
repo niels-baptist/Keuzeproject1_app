@@ -4,6 +4,7 @@
 /* Schrijf hier je aanpassingen die specifiek voor MIN zijn
 en die bovenop materialize komen */
 
+
 body {
     background-color: #eee;
     color: darkblue;
@@ -12,10 +13,41 @@ body {
     line-height: 21.5px;
 }
 
+.footer
+{
+    background-color: dodgerblue;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer a
+{
+    color: #fff;
+    text-align: center;
+}
+
+nav
+{
+    background-color: dodgerblue;
+    text-align: center;
+}
+
+.nav a
+{
+    color: #fff;
+    padding: 20px;
+}
+
+.intro
+{
+    text-align: justify;
+}
+
 h1
 {
     margin: auto;
     text-align: center;
+    font-size: 40px;
     padding: 20px;
 }
 
