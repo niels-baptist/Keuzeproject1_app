@@ -1,4 +1,4 @@
-* {
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,14 +6,23 @@
     background-color: white;
     font-size: 16px;
     line-height: 24px;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-
+    color: black;
 }
+
 
 .zoom {
     transition: all .2s ease-in-out;
     z-index: 0;
 
+}
+
+.imgAssortiement {
+    width: 100%;
+    height: 100%;
+}
+
+.AssortFig {
+    height: 30%;
 }
 
 .zoom:hover {
@@ -24,8 +33,77 @@
 
 .card-content {
     box-shadow: 5px 10px #000;
-    height: 540px;
-     !important
+    height: 700px;
 }
 
-.col .l4 {}
+.IconDiv {
+    background-color: #ececec;
+    color: black;
+    padding: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 0px;
+}
+
+.dot p {
+    margin-top: 35%
+}
+
+.dot {
+    margin-top: 15px;
+    height: 85px;
+    width: 85px;
+    background-color: dodgerblue;
+    border-radius: 50%;
+    font-size: 30px;
+    display: inline-block;
+    color: white;
+}
+
+
+#IconsSep > .container {
+    width: 100%;
+    max-width: initial;
+
+    > .row {
+        margin: 0;
+
+        > .col {
+            padding: 0;
+        }
+    }
+}
+
+nav {
+    color: white;
+    background-color: dodgerblue;
+}
+
+.SlideShow1 {
+    max-width: 100%;
+     ! important max-height: 50% !important
+}
+
+.SlideShow2 {
+    max-width: 100%;
+     ! important max-height: 50% !important
+}
+
+.box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
+
+.box:nth-child(even) {
+    background-color: #ccc;
+    color: #000;
+}
+
+.wrapper {
+    display: grid;
+    border: 1px solid #000;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr) minmax(200px, 2fr));
+}

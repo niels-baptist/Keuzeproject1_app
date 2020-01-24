@@ -29,8 +29,7 @@ body {
     color: #000;
 }
 
-.footer
-{
+.footer {
     background-color: dodgerblue;
     text-align: center;
     padding: 20px;
@@ -69,20 +68,18 @@ body {
     background-color: dodgerblue;
 }
 
-.imgHomepage
-{
+.imgHomepage {
     padding: 20px;
     margin: auto;
     display: block;
 }
-
+  
 .social
 {
     display: block;
     width: 100%;
     margin: auto;
-    padding-bottom: 50px;
-}
+   padding-bottom: 50px;
 
 .titleBanner
 {
@@ -111,8 +108,7 @@ body {
     width: 100%;
 }
 
-.navigatie
-{
+.navigatie {
     margin-top: 0px;
     padding-top: 0px;
     background-color: dodgerblue;
@@ -125,23 +121,19 @@ body {
     flex-basis: auto;
 }
 
-ul
-{
+ul {
     background-color: #fff;
 }
 
-li
-{
+li {
     padding: 10px;
 }
 
-li:active
-{
+li:active {
     background-color: #fff;
 }
 
-.nav a
-{
+.nav a {
     color: #fff;
     padding: 10px;
     margin: 10px;
@@ -153,17 +145,16 @@ li:active
 }
 
 nav a:active;
-{
+
+    {
     background-color: #fff;
 }
 
-.intro
-{
+.intro {
     text-align: justify;
 }
 
-h1
-{
+h1 {
     margin: auto;
     text-align: center;
     font-size: 40px;
@@ -171,21 +162,10 @@ h1
 }
 
 
-alogo
-{
+alogo {
     text-align: center;
     margin: auto;
 }
-
-.imgAssortiement {
-    width: 100%;
-    height: 100%;
-}
-
-.AssortFig {
-    height: 30%;
-}
-
 
 *,
 :after,
