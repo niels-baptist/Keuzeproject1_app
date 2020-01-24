@@ -1,19 +1,29 @@
-* {
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: mediumblue;
-    background-color: white;
+    /*    background-color: white;*/
     font-size: 16px;
     line-height: 24px;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-
+    color: black;
 }
+
 
 .zoom {
     transition: all .2s ease-in-out;
     z-index: 0;
 
+}
+
+.imgAssortiement {
+    width: 100%;
+    height: 100%;
+}
+
+.AssortFig {
+    height: 30%;
 }
 
 .zoom:hover {
@@ -28,4 +38,48 @@
      !important
 }
 
-.col .l4 {}
+.IconDiv {
+    background-color: #ececec;
+    color: black;
+    padding: 25px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+navItem {
+    background-color: dodgerblue;
+     !important
+}
+
+.dot {
+    text-align: center;
+    height: 85px;
+    width: 85px;
+    background-color: dodgerblue;
+    border-radius: 50%;
+    font-size: 30px;
+    display: inline-block;
+    color: white;
+}
+
+.dot a {
+    text-align: center;
+}
+
+#IconsSep > .container {
+    width: 100%;
+    max-width: initial;
+
+    > .row {
+        margin: 0;
+
+        > .col {
+            padding: 0;
+        }
+    }
+}
+
+nav {
+    color: white;
+    background-color: dodgerblue;
+}
