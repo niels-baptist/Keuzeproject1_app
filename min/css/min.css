@@ -9,6 +9,35 @@ en die bovenop materialize komen */
   width: 100%;
 }
 
+tr, td
+{
+    border: 1px solid #000;
+}
+
+.donerendiv
+{
+    display: block;
+    margin: 20px;
+}
+
+.fotoHistoriek
+{
+    padding: 20px;
+    max-width: 100%;
+}
+
+.fotocollage
+{
+    padding: 20px;
+    max-width: 100%;
+}
+
+table
+{
+    margin: 20px;
+    padding: 20px;
+}
+
 body {
     background-color: white;
     color: black;
@@ -16,6 +45,29 @@ body {
     font-size: 15px;
     line-height: 21.5px;
     height: 100%;
+}
+
+.accent
+{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.footer hr
+{
+    margin: auto;
+    width: 40%;
+}
+
+.lijstfooter li
+{
+    text-align: center;
+}
+
+.lijstfooter li a
+{
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 .signature
@@ -55,6 +107,11 @@ body {
     margin-top: 15%;
 }
 
+.lijstfooter li
+{
+    padding: 20px;
+}
+
 .lijstfooter li a
 {
     padding: 10px;
@@ -77,7 +134,6 @@ body {
 .social
 {
     display: block;
-    width: 100%;
     margin: auto;
    padding-bottom: 50px;
 }
@@ -143,6 +199,8 @@ li:active {
 .rond
 {
     border-radius: 100%;
+    display: block;
+    margin: auto;
 }
 
 nav a:active;
@@ -159,6 +217,11 @@ h1 {
     margin: auto;
     text-align: center;
     font-size: 40px;
+    padding: 20px;
+}
+
+.paddingdiv
+{
     padding: 20px;
 }
 
@@ -211,8 +274,6 @@ section.ok{
         display: block;
     }
 }
-
-
 
 .scroll-down {
   opacity: 1;
