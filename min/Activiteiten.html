@@ -4,25 +4,50 @@
 <head>
     <meta charset="UTF-8">
     <title>Onze activiteiten - MIN</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen" />
-    <link href="css/min.css" type="text/css" rel="stylesheet" media="screen" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/min.css">
     <link rel="stylesheet" href="css/style.css">
+    <script>
+        $(document).ready(function()) {
+        $(".dropdown-button").dropdown();
+        });
+        </script>
 </head>
 
 
 <body>
-    <div class="nav">
-        <ul class="navigatie">
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="Activiteiten.html">Activiteiten</a></li>
-            <li><a href="">sponsors</a></li>
-            <li><a href="">Ook doneren?</a></li>
-            <li><a href="">Partners</a></li>
-            <li><a href="">Historiek</a></li>
-        </ul>
-    </div>
+ <nav>
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo">Logo</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse">
+                <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li class="blue"><a href="./index.html">Home</a></li>
+                <li class="blue"><a href="./index.html">Activiteiten</a></li>
+                <li class="blue"><a href="./index.html">Historiek</a></li>
+                <li class="blue"><a href="./index.html">Op is op</a></li>
+                <li class="blue"><a href="./index.html">Partners</a></li>
+                <li class="blue"><a href="./index.html">Sponsors</a></li>
+                <li class="blue"><a href="./index.html">Doneren</a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./index.html">Activiteiten</a></li>
+                <li><a href="./index.html">Historiek</a></li>
+                <li><a href="./index.html">Op is op</a></li>
+                <li><a href="./index.html">Partners</a></li>
+                <li><a href="./index.html">Sponsors</a></li>
+                <li><a href="./index.html">Doneren</a></li>
+            </ul>
+        </div>
+    </nav>
     <div class="container">
         <Header>
             <h1>Onze Activiteiten</h1>
@@ -145,6 +170,10 @@
     </div>
 
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <script>
+        $(".button-collapse").sideNav();
+    </script>
     <script>
         var playing = true;
         var pauseButton = document.getElementById('pause');
