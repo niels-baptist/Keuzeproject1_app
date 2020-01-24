@@ -6,6 +6,7 @@ body {
     background-color: white;
     font-size: 16px;
     line-height: 24px;
+    color: black;
 }
 
 
@@ -39,17 +40,16 @@ body {
     background-color: #ececec;
     color: black;
     padding: 25px;
-    padding-bottom: 0px;
+    padding-bottom: 25px;
     margin-bottom: 0px;
 }
 
-navItem {
-    background-color: dodgerblue;
-     !important
+.dot p {
+    margin-top: 35%
 }
 
 .dot {
-    text-align: center;
+    margin-top: 15px;
     height: 85px;
     width: 85px;
     background-color: dodgerblue;
@@ -59,9 +59,6 @@ navItem {
     color: white;
 }
 
-.dot a {
-    text-align: center;
-}
 
 #IconsSep > .container {
     width: 100%;
