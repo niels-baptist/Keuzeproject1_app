@@ -4,6 +4,7 @@
 /* Schrijf hier je aanpassingen die specifiek voor MIN zijn
 en die bovenop materialize komen */
 
+
 body {
     background-color: white;
     color: darkblue;
@@ -12,25 +13,88 @@ body {
     line-height: 21.5px;
 }
 
-footer {
-    background-color: deepskyblue;
-}
-
-nav {
-    background-color: deepskyblue;
-}
-
-h1 {
-    margin: auto;
+.footer
+{
+    background-color: dodgerblue;
     text-align: center;
     padding: 20px;
 }
 
-li {
-    padding: 40px;
+.imgHomepage
+{
+    padding: 20px;
+    margin: auto;
+    display: block;
 }
 
-alogo {
+.social
+{
+   
+    padding-bottom: 50px;
+}
+
+.footer a
+{
+    color: #fff;
+    text-align: center;
+}
+
+.navigatie
+{
+    margin-top: 0px;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    flex-basis: auto;
+}
+
+ul
+{
+    background-color: #fff;
+}
+
+li
+{
+    padding: 10px;
+}
+
+li:active
+{
+    background-color: #fff;
+}
+
+.nav a
+{
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav a:active;
+{
+    background-color: #fff;
+}
+
+.intro
+{
+    text-align: justify;
+}
+
+h1
+{
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+}
+
+
+alogo
+{
     text-align: center;
     margin: auto;
 }
