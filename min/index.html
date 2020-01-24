@@ -2,38 +2,75 @@
 <html lang="nl">
 
 <head>
-   <title>Homepage - Min</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen" />
-    <link href="css/min.css" type="text/css" rel="stylesheet" media="screen" /> 
+    <title>Startpagina - MIN</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        $(document).ready(function()) {
+        $(".dropdown-button").dropdown();
+        });
+
+    </script>
 </head>
 
-<body>    
-       <h1 class="titleBanner">Welkom bij MIN</h1>
-        <div class="slideshow-container">
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo">Logo</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse">
+                <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li class="blue"><a href="./index.html">Home</a></li>
+                <li class="blue"><a href="./Activiteiten.html">Activiteiten</a></li>
+                <li class="blue"><a href="./historiek.html">Historiek</a></li>
+                <li class="blue"><a href="./opisop.html">Op is op</a></li>
+                <li class="blue"><a href="./index.html">Partners</a></li>
+                <li class="blue"><a href="./Sponsors.html">Sponsors</a></li>
+                <li class="blue"><a href="./Doneren.html">Doneren</a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./Activiteiten.html">Activiteiten</a></li>
+                <li><a href="./historiek.html">Historiek</a></li>
+                <li><a href="./opisop.html">Op is op</a></li>
+                <li><a href="./index.html">Partners</a></li>
+                <li><a href="./Sponsors.html">Sponsors</a></li>
+                <li><a href="./Doneren.html">Doneren</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <h1 class="titleBanner">Welkom bij MIN</h1>
+    
+      <div class="slideshow-container">
 
       <div class="mySlides fade">
         <img class="banner" src="./images/Assortiement.jpg" style="width:100%">
       </div>
     </div>
 
-  <div class="nav" id="navig">
-      <ul class="navigatie">
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./Activiteiten.html">Activiteiten</a></li>
-          <li><a href="./Sponsors.html">Sponsors</a></li>
-          <li><a href="./Doneren.html">Ook doneren?</a></li>
-          <li><a href="./partners.html">Partners</a></li>
-          <li><a href="./Historiek.html">Historiek</a></li>
-          <li><a href="./opisop.html">Op is op</a></li>
-      </ul>          
-  </div>
-   
-   <section>
-        <a href="#navig" id="scrolldown" class="scroll-down" address="true"></a>
-    </section>
+<script>
+        $(document).ready(function()) {
+        $(".dropdown-button").dropdown();
+        });
+
+    </script>
+
+<script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <script>
+        $(".button-collapse").sideNav();
+    </script>
+
 
    
     <div class="container">
