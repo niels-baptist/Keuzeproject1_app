@@ -40,6 +40,35 @@ body {
     padding: 5px
 }
 
+.lijstfooter
+{
+    background-color: dodgerblue;
+    color: #fff;
+    text-align: start;
+}
+
+.logo
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-top: 15%;
+}
+
+.lijstfooter li a
+{
+    padding: 10px;
+    color: #fff;
+}
+
+.lijstfooter li:active
+{
+    padding: 10px;
+    color: #fff;
+    background-color: dodgerblue;
+}
+
 .imgHomepage
 {
     padding: 20px;
@@ -49,13 +78,10 @@ body {
 
 .social
 {
-   
+    display: block;
+    width: 100%;
+    margin: auto;
     padding-bottom: 50px;
-}
-
-.footer a
-{
-    text-align: center;
 }
 
 .titleBanner
@@ -119,6 +145,11 @@ li:active
     color: #fff;
     padding: 10px;
     margin: 10px;
+}
+
+.rond
+{
+    border-radius: 100%;
 }
 
 nav a:active;
