@@ -30,7 +30,7 @@
             <ul class="right hide-on-med-and-down">
                 <li class="blue"><a href="./index.html">Home</a></li>
                 <li class="blue"><a href="./Activiteiten.html">Activiteiten</a></li>
-                <li class="blue"><a href="./historiek.html">Historiek</a></li>
+                <li class="blue"><a class="active" href="./historiek.html">Historiek</a></li>
                 <li class="blue"><a href="./opisop.html">Op is op</a></li>
                 <li class="blue"><a href="./Partners.html">Partners</a></li>
                 <li class="blue"><a href="./Sponsors.html">Sponsors</a></li>
@@ -39,7 +39,7 @@
             <ul class="side-nav" id="mobile-demo">
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./Activiteiten.html">Activiteiten</a></li>
-                <li><a href="./historiek.html">Historiek</a></li>
+                <li><a class="active" href="./historiek.html">Historiek</a></li>
                 <li><a href="./opisop.html">Op is op</a></li>
                 <li><a href="./Partners.html">Partners</a></li>
                 <li><a href="./Sponsors.html">Sponsors</a></li>
@@ -48,11 +48,10 @@
         </div>
     </nav>
 
-<script>
+    <script>
         $(document).ready(function()) {
         $(".dropdown-button").dropdown();
         });
-
     </script>
 
 <script type="text/javascript" src="js/materialize.min.js"></script>
@@ -83,6 +82,12 @@
              </div>
          </div>
       </div>
+    </div>
+    
+    <div class="container">
+        <div class="col s12">
+            <button onclick="topFunction()" id="knop" title="Go to top">Terug naar boven</button>
+        </div>
     </div>
     
     <div class="footer">
@@ -127,11 +132,18 @@
               </div>
   
 
-<script>
-    $(document).ready(function()
-      {
-        $('.carousel').carousel();
-      });
-</script>
-</body>
+    <script>
+        $(document).ready(function()
+          {
+            $('.carousel').carousel();
+          });
+    </script>
+    <script>
+             function topFunction() 
+             {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+    </body>
 </html>

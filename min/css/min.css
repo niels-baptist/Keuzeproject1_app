@@ -125,7 +125,23 @@ body {
     background-color: dodgerblue;
 }
 
-.imgHomepage {
+#knop
+{
+    padding: 20px;
+    display: block;
+    margin: auto;
+    background-color: #fff;
+    border: 2px solid dodgerblue;
+}
+
+#knop:hover
+{
+    background-color: #555;
+    color: #fff;
+}
+
+.imgHomepage 
+{
     padding: 20px;
     margin: auto;
     display: block;
@@ -133,9 +149,11 @@ body {
   
 .social
 {
+    background-color: #fff;
     display: block;
     margin: auto;
-   padding-bottom: 50px;
+    width: 100%;
+    padding-bottom: 50px;
 }
 
 .titleBanner
@@ -196,6 +214,13 @@ li:active {
     margin: 10px;
 }
 
+.active
+{
+    text-decoration: underline;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px;
+}
+
 .rond
 {
     border-radius: 100%;
@@ -214,6 +239,8 @@ nav a:active;
 }
 
 h1 {
+    display: block;
+    width: 100%;
     margin: auto;
     text-align: center;
     font-size: 40px;

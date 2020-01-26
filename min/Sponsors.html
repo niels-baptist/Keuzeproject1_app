@@ -34,7 +34,7 @@
                 <li class="blue"><a href="./historiek.html">Historiek</a></li>
                 <li class="blue"><a href="./opisop.html">Op is op</a></li>
                 <li class="blue"><a href="./Partners.html">Partners</a></li>
-                <li class="blue"><a href="./Sponsors.html">Sponsors</a></li>
+                <li class="blue"><a class="active" href="./Sponsors.html">Sponsors</a></li>
                 <li class="blue"><a href="./Doneren.html">Doneren</a></li>
             </ul>
             <ul class="side-nav" id="mobile-demo">
@@ -43,11 +43,17 @@
                 <li><a href="./historiek.html">Historiek</a></li>
                 <li><a href="./opisop.html">Op is op</a></li>
                 <li><a href="./Partners.html">Partners</a></li>
-                <li><a href="./Sponsors.html">Sponsors</a></li>
+                <li><a class="active" href="./Sponsors.html">Sponsors</a></li>
                 <li><a href="./Doneren.html">Doneren</a></li>
             </ul>
         </div>
     </nav>
+    
+    <div class="container">
+        <div class="col s12">
+            <button onclick="topFunction()" id="knop" title="Go to top">Terug naar boven</button>
+        </div>
+    </div>
     
 <!--
     <div class="container">
@@ -113,6 +119,13 @@
         $(".button-collapse").sideNav();
 
     </script>
+    <script>
+             function topFunction() 
+             {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
     </body>
     
 </html>
