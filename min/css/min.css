@@ -112,6 +112,19 @@ body {
     padding: 20px;
 }
 
+.partner
+{
+    text-align: center;
+}
+
+.imgPartner
+{
+    padding: 20px;
+    display: block;
+    width: auto;
+    margin: auto;
+}
+
 .lijstfooter li a
 {
     padding: 10px;
