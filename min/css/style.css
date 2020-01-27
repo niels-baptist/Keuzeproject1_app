@@ -110,8 +110,17 @@ nav {
 
 .HeadLogo {
     height: 100%;
+    width: 100%;
+    float: left;
 }
 
-    #LogoWrapper {
-        height: 100%;
-    }
+#LogoWrapper {
+
+    height: 100%;
+    width: 100%;
+}
+
+#BGDoneren {
+    margin: 0px;
+
+}
