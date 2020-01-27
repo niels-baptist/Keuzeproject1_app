@@ -118,6 +118,11 @@ body {
     color: #fff;
 }
 
+.active
+{
+    filter: brightness(75%);  
+}
+
 .lijstfooter li:active
 {
     padding: 10px;
@@ -163,6 +168,10 @@ body {
     margin-top: 0px;
     padding-top: 0px;
     width: 100%;
+    min-width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: dodgerblue;
 }
 
 .navigatie {
