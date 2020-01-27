@@ -196,6 +196,11 @@ li:active {
     margin: 10px;
 }
 
+.blue img
+{
+    vertical-align: middle;
+}
+
 .rond
 {
     border-radius: 100%;
