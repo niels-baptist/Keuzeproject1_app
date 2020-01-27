@@ -151,12 +151,16 @@ nav {
 
 .HeadLogo {
     height: 100%;
+    width: 100%;
+    float: left;
+}
+#LogoWrapper {
+
+    height: 100%;
+    width: 100%;
 }
 
-    #LogoWrapper {
-        height: 100%;
-    }
-.l3{
-    border-style: none; !important
-    box-shadow: 0;!important
+#BGDoneren {
+    margin: 0px;
+
 }
