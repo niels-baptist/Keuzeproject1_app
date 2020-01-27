@@ -43,6 +43,8 @@ body {
 .card-content:active {
     background-color: grey;
 }
+
+/*
 .card-contentS {
     height: 200px;
 
@@ -52,7 +54,7 @@ body {
     background-color: grey;
 }
 
-.card {}
+.card {}*/
 
 .IconDiv {
     background-color: #ececec;
@@ -110,16 +112,11 @@ nav {
     background-color: dodgerblue;
 }
 
-.afbeeldingen {
-    max-width: 100%;
-     ! important max-height: 100% ;!important vertical-align: middle;
-    margin: auto;
-
-}
 
 .SlideShow1 {
     max-width: 100%;
-     ! important max-height: 50% ;!important vertical-align: middle;
+     ! important max-height: 50%;
+     !important vertical-align: middle;
     margin: auto;
 
 }
@@ -154,13 +151,22 @@ nav {
     width: 100%;
     float: left;
 }
+
 #LogoWrapper {
 
     height: 100%;
     width: 100%;
 }
 
-#BGDoneren {
-    margin: 0px;
 
+.BedImg div {
+    margin: 5% 0;
+    width: 300px;
+    height: 300px;
+
+}
+
+.BedImg img {
+    max-height: 300px;
+    max-width: 300px;
 }
