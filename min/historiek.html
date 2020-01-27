@@ -76,7 +76,7 @@
                     kunnen geven bij dergelijke oproepen. Zo ontstond Actie Mensen In Nood - Mol </p>
             </div>
             <div class="col s12 l6">
-                <img class="imgHomepage" height="400px" width="300px" src="./images/oprichter.jpg" alt="Foto van pastoor Frans">
+                <img class="imgHomepage" height="400" width="300" src="./images/oprichter.jpg" alt="Foto van pastoor Frans">
             </div>
             <div class="row">
                 <div class="col s12 m6 l6">
@@ -89,54 +89,84 @@
         </div>
     </div>
 
-    <div class="footer">
-        <div class="row">
-            <div class="col s12 m12 l12 center">
-                <h5 class="white-text">Nuttige info</h5>
-                <hr>
-                <ul class="lijstfooter">
-                    <div class="row">
-                        <div class="col s12 m6 l4">
-                            <li>Voedselbedeling – noodhulp op zaterdag <br><a href="https://goo.gl/maps/szfSvPaxTDChrU4F7">St Apollonialaan 198 - 2400 Mol</a></li>
+ <div class="footer">
+            <div class="row">
+                <div class="col s12 m12 l12 center">
+                    <h5 class="white-text">Nuttige info</h5>
+                    <hr>
+                    <ul class="lijstfooter">
+                        <div class="row">
+                            <div class="col s12 m6 l4">
+                                <li>Voedselbedeling – noodhulp op zaterdag <br><a href="https://goo.gl/maps/szfSvPaxTDChrU4F7">St Apollonialaan 198 - 2400 Mol</a></li>
+                            </div>
+                            <div class="col s12 m6 l4">
+                                <li>Algemene info/nieuwe aanvragen<br>Gsm: <a href="tel:0473241361">0473/24 13 61</a></li>
+                            </div>
+                            <div class="col s12 m6 l4">
+                                <li>Kleding/huisraad/speelgoed<br>Gsm:<a href="tel:0468585139">0468/58 51 39</a></li>
+                            </div>
+                            <div class="col s12 m6 l4">
+                                <li>Rekeningnummer <br>BE29 7512 0621 4764 <br>
+                                    BIC AXABBE22</li>
+                            </div>
+                            <div class="col s12 m6 l4">
+                                <li>Maatschappelijke zetel<br>
+                                    <a href="https://goo.gl/maps/TEyLbiTVx9Tp25z9A">Bresserdijk 4 - 2400 Mol</a></li>
+                            </div>
+                            <div class="col s12 m6 l4">
+                                <li>
+                                    <p class="white-text">Lid van welzijnsschakels</p>
+                                    <img class="rond" width="150" height="150" src="./images/welzijnschakels_logo.png" alt="logo welzijnschakels">
+                                </li>
+                            </div>
                         </div>
-                        <div class="col s12 m6 l4">
-                            <li>Algemene info/nieuwe aanvragen<br>Gsm: <a href="tel:0473241361">0473/24 13 61</a></li>
-                        </div>
-                        <div class="col s12 m6 l4">
-                            <li>Kleding/huisraad/speelgoed<br>Gsm:<a href="tel:0468585139">0468/58 51 39</a></li>
-                        </div>
-                        <div class="col s12 m6 l4">
-                            <li>Rekeningnummer <br>BE29 7512 0621 4764 <br>
-                                BIC AXABBE22</li>
-                        </div>
-                        <div class="col s12 m6 l4">
-                            <li>Maatschappelijke zetel<br>
-                                <a href="https://goo.gl/maps/TEyLbiTVx9Tp25z9A">Bresserdijk 4 - 2400 Mol</a></li>
-                        </div>
-                        <div class="col s12 m6 l4">
-                            <li>
-                                <p class="white-text">Lid van welzijnsschakels</p>
-                                <img class="rond" width="150" height="150" src="./images/welzijnschakels_logo.png" alt="logo welzijnschakels">
-                            </li>
-                        </div>
-                    </div>
-                </ul>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="zwartetekst col s12 m12 l12 signature">
-        <p class="zwartetekst">Keuzeproject 1ITF <a href="https://thomasmore.be">@ Thomas More</a> – prototype ontwikkeld door:
-            <a href="../index.html">DNDPLUS</a> &copy;
-        </p>
-    </div>
+        <div class="zwartetekst col s12 m6 l4 signature">
+            <p class="zwartetekst">Keuzeproject 1ITF <a href="https://thomasmore.be">@ Thomas More</a> – prototype ontwikkeld door:
+                <a href="../webbureau/index.html">DNDPLUS</a> &copy;
+            </p>
+        </div>
 
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script>
+            $(function() {
+                $('.scroll-down').click(function() {
+                    $('html, body').animate({
+                        scrollTop: $('#eerstep').offset().top
+                    }, 'slow');
+                    return false;
+                });
+            });
 
-    <script>
-        $(document).ready(function() {
-            $('.carousel').carousel();
+        </script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script>
+    $(function() {
+        $('.scroll-down').click(function() {
+            $('html, body').animate({
+                scrollTop: $('#eerstep').offset().top
+            }, 'slow');
+            return false;
         });
+    });
 
-    </script>
+</script>
+
+<script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+
+</script>
 </body>
 
 </html>
