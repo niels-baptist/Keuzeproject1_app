@@ -148,3 +148,11 @@ nav {
     grid-gap: 10px;
     grid-template-columns: repeat(2, minmax(50px, 1fr) minmax(50px, 2fr));
 }
+
+.HeadLogo {
+    height: 100%;
+}
+
+    #LogoWrapper {
+        height: 100%;
+    }
