@@ -44,7 +44,7 @@ body {
     background-color: grey;
 }
 .card-contentS {
-    height: 350px;
+    height: 200px;
 
 }
 
@@ -156,3 +156,7 @@ nav {
     #LogoWrapper {
         height: 100%;
     }
+.l3{
+    border-style: none; !important
+    box-shadow: 0;!important
+}
