@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
     <meta charset="UTF-8">
     <title>Doneren - MIN</title>
@@ -12,17 +13,21 @@
     <link rel="stylesheet" href="css/materialize.css">
     <link rel="stylesheet" href="css/min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
     <script>
         $(document).ready(function()) {
         $(".dropdown-button").dropdown();
         });
+
     </script>
 </head>
 
 <body>
     <nav>
         <div class="nav-wrapper">
-            <a href="#!" class="brand-logo">Logo</a>
+            <a href="#!" class="brand-logo">
+                <div id="LogoWrapper"><img class="HeadLogo" src="images/logoMin.svg" alt="OnsLogo" title="Logo"></div>
+            </a>
             <a href="#" data-activates="mobile-demo" class="button-collapse">
                 <i class="material-icons">menu</i>
             </a>
@@ -46,21 +51,26 @@
             </ul>
         </div>
     </nav>
-    
+
     <div class="container">
-        <div class="row center">
-             <h2>Doneren</h2>
+        <div class="row">
+
+            <div height="">
+
+            </div>
+            <!--
+            <h2>Doneren</h2>
             <div class="col s12 m6 l6">
-               <table>
-                   <tr>
-                       <td>Rekeningnummer</td>
-                       <td>BE29 7512 0621 4764</td>
-                   </tr>
-                  <tr>
-                       <td>BIC-code</td>
-                       <td>BIC AXABBE22</td>
-                   </tr>
-               </table>
+                <table>
+                    <tr>
+                        <td>Rekeningnummer</td>
+                        <td>BE29 7512 0621 4764</td>
+                    </tr>
+                    <tr>
+                        <td>BIC-code</td>
+                        <td>BIC AXABBE22</td>
+                    </tr>
+                </table>
             </div>
             <div class="col s12 m6 l6">
                 <p class="donerendiv">Ook u kan mensen helpen! Doneren mag altijd op het rekening nummer <span class="accent">BE29 7512 0621 4764</span> Alle giften zijn welkom, alvast duizendmaal bedankt voor uw gift.</p>
@@ -73,9 +83,10 @@
             <div class="col s12 l6">
                 <img class="fotocollage" src="./images/gift.jpg" height="276px" alt="Foto van mensen die een cheque ontvangen">
             </div>
+-->
         </div>
     </div>
-    
+
     <div class="footer">
             <div class="row">
               <div class="col s12 m12 l12 center">
@@ -124,12 +135,13 @@
 
     </script>
 
-<script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript" src="js/materialize.js"></script>
     <script>
         $(".button-collapse").sideNav();
 
     </script>
-    
+
 </body>
+
 </html>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 30px;
+      }
+    </style>
+  </defs>
+  <path id="Rechthoek_2" data-name="Rechthoek 2" class="cls-1" d="M512.269,736.049H874.434V760.5H512.269V736.049Z"/>
+  <rect id="Rechthoek_2-2" data-name="Rechthoek 2" class="cls-2" x="1049.28" y="736.063" width="362.16" height="24.437"/>
+  <rect id="Rechthoek_2-3" data-name="Rechthoek 2" class="cls-2" x="512.281" y="794.063" width="287.157" height="24.437"/>
+  <rect id="Rechthoek_2-4" data-name="Rechthoek 2" class="cls-2" x="1129.53" y="798.469" width="290.41" height="20.219"/>
+  <path id="Rechthoek_3" data-name="Rechthoek 3" class="cls-1" d="M785.981,801.2l123.754-90.427L922.1,728.136,798.346,818.562Z"/>
+  <path id="Rechthoek_3-2" data-name="Rechthoek 3" class="cls-1" d="M1020.99,716.243l123.28,85.374-11.83,17.077L1009.16,733.32Z"/>
+  <path id="MIN" class="cls-1" d="M901.671,430.5H861.383l-30.171,67.478L800.951,430.5H760.663V565h32.7V474.939L818.3,533.384h23.938l24.932-58.445V565h34.506V430.5ZM1008.71,541.152H986.674V454.343h22.036V430.5H929.945v23.847h22.041v86.809H929.945V565h78.765V541.152ZM1159.3,430.5h-31.8v77.053L1078.45,430.5h-41.46V565h31.8V472.681L1125.88,565h33.42V430.5Z"/>
+  <ellipse id="Ovaal_1" data-name="Ovaal 1" class="cls-3" cx="947" cy="497" rx="484" ry="227"/>
+</svg>
